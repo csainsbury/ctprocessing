@@ -1,0 +1,89 @@
+# CT scan files (large binary files)
+*.nii.gz
+*.dcm
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+ct_processing/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output directories (but keep structure)
+output/
+full_output/
+example_output/
+results/
+*_output/
+
+# Generated images and visualizations
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.eps
+
+# Numpy arrays
+*.npy
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+.coverage
+
+# mypy
+.mypy_cache/

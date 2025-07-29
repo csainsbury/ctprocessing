@@ -1,0 +1,28 @@
+{
+  "processing": {
+    "target_spacing": [1.0, 1.0, 2.0],
+    "max_workers": 4,
+    "batch_size": 10
+  },
+  "detection": {
+    "aorta_radius_range": [15, 35],
+    "vertebra_area_range": [200, 800],
+    "heart_intensity_threshold": 0.3,
+    "expected_valve_z_range": [40, 120]
+  },
+  "quality_control": {
+    "min_confidence_threshold": 0.1,
+    "slice_consistency_threshold": 10.0,
+    "create_visualizations": true,
+    "save_individual_reports": false
+  },
+  "output": {
+    "save_slices": true,
+    "save_metadata": true,
+    "create_montage": true,
+    "create_dashboard": true,
+    "save_jpg": true,
+    "jpg_quality": 95,
+    "jpg_with_annotations": false
+  }
+}
